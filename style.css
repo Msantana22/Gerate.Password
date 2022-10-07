@@ -165,6 +165,12 @@ body{
     font-size: 24px;
     
 }
+
+svg{
+    margin-top: 1px ;
+  
+    
+ }
 .container-input{
     width: 85%;
     margin-left: 25px;
