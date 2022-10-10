@@ -120,6 +120,13 @@ svg{
 .password:hover{
     transform: scale(1.05);
 }
+.copy{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 118%;
+    bottom: 43px;
+   
+}
 
 .tooltip{
     color: white;
@@ -234,7 +241,13 @@ svg{
     display: none;
     
 }
-
+.copy2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 132%;
+    bottom: 45px;
+   
+}
 
 .tooltip2{
     visibility: visible;
