@@ -187,11 +187,10 @@ svg{
     font-size: 22px;
 }
 .slider{
- -webkit-appearance: none;
- border-radius: 5px;
- background-color: white;
- height: 18px;
- outline: none;  
+    background: linear-gradient(89.07deg, #1a0568 25.94%, #010b3f 46.42%);
+    border-radius: 5px;
+    height: 18px;
+    outline: none;  
 }
 .button-cta{
     height: 49px;
