@@ -162,7 +162,7 @@ svg{
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 body{
     background-color: #35075D;
 }
@@ -241,12 +241,9 @@ svg{
     display: none;
     
 }
-.copy2{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 132%;
-    bottom: 45px;
-   
+
+.copy{
+    display: none;
 }
 
 .tooltip2{
