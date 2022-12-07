@@ -16,18 +16,19 @@
     <img src="711.jpg">
     
 <div class="maintainers">
-    <h1 class="logo">Gere sua senha agora mesmo</h1>
+    <h1 class="logo">Gere sua senha agora mesmo !</h1>
 
-    <main class="container-input">
+    <div class="container-input">
         <span>Tamanho <span id="valor"></span> cararacteres</span>
         <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
         <button id="button" class="button-cta" onclick="geratePassword()">Gerar senha</button>
-    </main>
-    <div id="container-password" onclick="copyPassword()" class="container-password hide">
+    </div>
+    <div id="container-password"  class="container-password hide">
         <span class="title">Sua senha gerada foi:</span>
-        <span id="password" class="password"></span>
-        <span class="tooltip">Clique na senha para copiar<span class="copy"><i class="fa-regular fa-copy"></i></span></span>
-        <span class="tooltip2">Clique na senha para copiar.</span>
+        <span id="password" onclick="copyPassword()" class="password"></span>
+
+        <span class="tooltip">Clique na senha para copiar <span class="copy"><i class="fa-regular fa-copy"></i></span></span>
+        <span class="tooltip2">Clique na senha para copiar </span>
     </div>
 </div>
   <script src="script.js"></script>
